@@ -1,8 +1,8 @@
 html, body {
-  margin: 0 auto !important;
-  padding: 0 !important;
-  height: 100% !important;
-  width: 100% !important;
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  width: 100%;
   background: #f1f1f1;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -10,7 +10,7 @@ html, body {
 
 body {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 15px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.4);
@@ -26,12 +26,13 @@ table {
 
 a {
   text-decoration: none;
-  padding-bottom: 15px;
 }
 
 .bg_white {
   background: #ffffff;
   padding: 1em 2.5em 0 0;
+  padding-bottom: 1em;
+  font-weight: 500;
 }
 
 .bg_white td {
@@ -55,13 +56,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Work Sans', sans-serif;
   color: #000000;
   margin-top: 0;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .logo a {
   color: #17bebb;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 800;
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -69,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 0;
   background-color: #ffffff;
-  padding: 2em 0 2em 0;
+  padding: 2.5em 0 2em 0;
 }
 
 .hero td {
@@ -83,15 +84,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero .text h2 {
   color: #000;
-  font-size: 34px;
+  font-size: 35px;
   margin-bottom: 15px;
   font-weight: 300;
   line-height: 1.2;
 }
 
 .hero .text h3 {
+  color: black;
   font-size: 24px;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .product_entry {
